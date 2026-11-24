@@ -1,0 +1,52 @@
+{
+  "name": "allswap/craft-crypto-validator",
+  "description": "Multi-chain cryptocurrency address validation for Craft CMS entries, forms, and ecommerce fields (Bitcoin, Ethereum, Solana, BSC, TON, TRON).",
+  "type": "craft-plugin",
+  "version": "1.0.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "crypto",
+    "bitcoin",
+    "ethereum",
+    "solana",
+    "validator",
+    "allswap",
+    "web3"
+  ],
+  "support": {
+    "docs": "https://github.com/allswap-protocol/craft-crypto-validator",
+    "issues": "https://github.com/allswap-protocol/craft-crypto-validator/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "AllSwap Protocol",
+      "homepage": "https://allswap.io"
+    }
+  ],
+  "require": {
+    "php": "^8.0.2 || ^8.1 || ^8.2 || ^8.3",
+    "craftcms/cms": "^4.0.0 || ^5.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "allswap\\cryptovalidator\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Crypto Address Validator",
+    "handle": "crypto-address-validator",
+    "schemaVersion": "1.0.0",
+    "developer": "AllSwap Protocol",
+    "developerUrl": "https://allswap.io",
+    "documentationUrl": "https://github.com/allswap-protocol/craft-crypto-validator",
+    "downloadUrl": "https://github.com/allswap-protocol/craft-crypto-validator/archive/v1.0.0.zip",
+    "class": "allswap\\cryptovalidator\\Plugin",
+    "description": "Multi-chain cryptocurrency address validation for Craft CMS forms, entries, and ecommerce fields.",
+    "category": "utilities",
+    "icon": "src/icon.svg"
+  }
+}
